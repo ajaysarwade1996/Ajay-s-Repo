@@ -4,17 +4,18 @@ class Human
     private String name;
 
    public int getAge()
+
     {
         return age;
     }
-   public void setAge(int a)
+   public void setAge(int age)
     {
-        age = a;//apn ji value pass krnar ahot ti value a la assign hoil and then it will be assign to name...
+        this.age = age;//apn ji value pass krnar ahot ti value a la assign hoil and then it will be assign to name...
     }
 
-     public void setName(String n)
+     public void setName(String name)
     {
-        name = n;//ji value apn pass krnar ahot ti adhi n mdhe ghyaychi and then name la assign karaychi ahe...
+        this.name = name;//ji value apn pass krnar ahot ti adhi n mdhe ghyaychi and then name la assign karaychi ahe...
     }
 
      public String getName()
